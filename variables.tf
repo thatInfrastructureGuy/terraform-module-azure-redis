@@ -61,3 +61,17 @@ variable "patch_start_hour_utc" {
   default     = "1"
 }
 
+variable "tag_environment" {
+  description = "Tag: Cluster Environment"
+  default     = ""
+}
+
+variable "tag_region" {
+  description = "Tag: Cluster Environment"
+  default     = ""
+}
+
+variable "tag_product" {
+  description = "Tag: Cluster Product Lensferry/Nexus"
+  default     = ""
+}
