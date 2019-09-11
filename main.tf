@@ -8,6 +8,7 @@ resource "azurerm_redis_cache" "azure_redis" {
   enable_non_ssl_port               = "${var.enable_non_ssl_port}"
   private_static_ip_address         = "${var.redis_static_ip}"
   subnet_id                         = "${var.redis_subnet_id}"
+  minimum_tls_version               = "${var.minimum_tls_version}"
 
   redis_configuration {
     aof_backup_enabled              = "${var.aof_backup_enabled}"
