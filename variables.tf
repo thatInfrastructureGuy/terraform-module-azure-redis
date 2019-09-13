@@ -32,7 +32,7 @@ variable "redis_family" {
 }
 
 variable "sku_capacity" {
-  default     = 1
+  default     = 0
 }
 
 variable "aof_backup_enabled" {
