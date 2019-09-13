@@ -40,7 +40,7 @@ variable "aof_backup_enabled" {
 }
 
 variable "enable_non_ssl_port" {
-  default     = true
+  default     = false
 }
 
 variable "minimum_tls_version" {
